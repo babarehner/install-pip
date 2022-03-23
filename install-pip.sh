@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # get latest updates/upgrades
-sudo apt update && suduo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 # may require user password if not previously entered
 
