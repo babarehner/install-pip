@@ -5,7 +5,7 @@ sudo apt update && sudo apt upgrade -y
 
 # may require user password if not previously entered
 
-# install curl shich downloads pip
+# install curl which downloads pip
 sudo apt install curl -y
 
 # Change to Downloads directory
