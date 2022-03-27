@@ -24,11 +24,11 @@ curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 # verify get-pip.py has been downloaded
 ls
 
-# have to add distutils file to for python in Ubuntu 20.04
+# have to add distutils file to for python versions in Ubuntu 20.04
 sudo apt install python3.8-distutils -y
 sudo apt install python3.10-distutils -y
 
-# run get-pip.py
+# run get-pip.py for each Python version
 python3.8 get-pip.py
 python3.10 get-pip.py
 
